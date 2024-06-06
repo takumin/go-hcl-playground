@@ -6,8 +6,8 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/takumin/boilerplate-golang-cli/internal/command/completion/zsh"
-	"github.com/takumin/boilerplate-golang-cli/internal/config"
+	"github.com/takumin/go-hcl-playground/internal/command/completion/zsh"
+	"github.com/takumin/go-hcl-playground/internal/config"
 )
 
 func TestNewCommands(t *testing.T) {

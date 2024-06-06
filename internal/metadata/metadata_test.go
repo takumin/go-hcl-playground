@@ -3,7 +3,7 @@ package metadata_test
 import (
 	"testing"
 
-	"github.com/takumin/boilerplate-golang-cli/internal/metadata"
+	"github.com/takumin/go-hcl-playground/internal/metadata"
 )
 
 func TestAppName(t *testing.T) {

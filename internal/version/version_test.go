@@ -3,7 +3,7 @@ package version_test
 import (
 	"testing"
 
-	"github.com/takumin/boilerplate-golang-cli/internal/version"
+	"github.com/takumin/go-hcl-playground/internal/version"
 )
 
 func TestVersion(t *testing.T) {

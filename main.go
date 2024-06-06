@@ -7,11 +7,11 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/takumin/boilerplate-golang-cli/internal/command/completion"
-	"github.com/takumin/boilerplate-golang-cli/internal/command/subcommand"
-	"github.com/takumin/boilerplate-golang-cli/internal/config"
-	"github.com/takumin/boilerplate-golang-cli/internal/metadata"
-	"github.com/takumin/boilerplate-golang-cli/internal/version"
+	"github.com/takumin/go-hcl-playground/internal/command/completion"
+	"github.com/takumin/go-hcl-playground/internal/command/subcommand"
+	"github.com/takumin/go-hcl-playground/internal/config"
+	"github.com/takumin/go-hcl-playground/internal/metadata"
+	"github.com/takumin/go-hcl-playground/internal/version"
 )
 
 func main() {

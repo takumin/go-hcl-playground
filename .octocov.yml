@@ -1,4 +1,4 @@
-repository: takumin/boilerplate-golang-cli
+repository: takumin/go-hcl-playground
 summary:
   if: true
 comment:

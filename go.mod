@@ -1,4 +1,4 @@
-module github.com/takumin/boilerplate-golang-cli
+module github.com/takumin/go-hcl-playground
 
 go 1.22.4
 

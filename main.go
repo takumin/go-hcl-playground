@@ -8,7 +8,7 @@ import (
 	"github.com/urfave/cli/v2"
 
 	"github.com/takumin/go-hcl-playground/internal/command/completion"
-	"github.com/takumin/go-hcl-playground/internal/command/subcommand"
+	"github.com/takumin/go-hcl-playground/internal/command/simple"
 	"github.com/takumin/go-hcl-playground/internal/config"
 	"github.com/takumin/go-hcl-playground/internal/metadata"
 	"github.com/takumin/go-hcl-playground/internal/version"
@@ -30,7 +30,7 @@ func main() {
 
 	cmds := []*cli.Command{
 		completion.NewCommands(cfg, flags),
-		subcommand.NewCommands(cfg, flags),
+		simple.NewCommands(cfg, flags),
 	}
 
 	app := &cli.App{

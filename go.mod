@@ -3,7 +3,7 @@ module github.com/takumin/go-hcl-playground
 go 1.22.4
 
 require (
-	github.com/hashicorp/hcl/v2 v2.20.1
+	github.com/hashicorp/hcl/v2 v2.21.0
 	github.com/urfave/cli/v2 v2.27.2
 )
 
